@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/productslist"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+   			 
+     
+             >
+
+          
+
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@drawable/welcome_background"
+	
+	>
+	
+	
+	
+	<Button
+		android:id="@+id/start_button"
+		android:background="@drawable/first_start_icon"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:gravity="center_vertical"
+		android:layout_marginTop="50dip"
+android:layout_marginBottom="1dp" 
+		android:layout_gravity="center_horizontal"
+	
+		 />
+		
+		
+		
+		<Button
+		android:id="@+id/demo_button"
+		android:background="@drawable/view_demo_icon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center_horizontal"
+		android:gravity="center_vertical"
+		
+		/>
+		
+
+	<LinearLayout
+        android:id="@+id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     >
+    </LinearLayout>
+		<Button
+		android:id="@+id/port_config_button"
+		android:background="@drawable/portconfig"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center_horizontal"
+		android:gravity="center_vertical"
+		android:visibility="invisible"
+		/>
+
+	
+</LinearLayout>
+
+</FrameLayout>
+

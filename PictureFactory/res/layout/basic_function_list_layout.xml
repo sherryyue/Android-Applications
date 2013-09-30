@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/chinese_background"
+    >
+<TextView
+	android:id="@+id/textView1"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="选择处理效果:"
+    android:textColor="#9932CD" 
+    android:layout_gravity="center_horizontal" 
+    	android:layout_marginTop="30dip"
+android:layout_marginLeft="15dp" 
+    android:textSize="15dip"/>
+    />
+<RadioGroup
+	android:id="@+id/basic_function_group"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:layout_marginLeft="35dp" 
+    >
+    <RadioButton
+    	android:id="@+id/add_icon"
+ 	    android:layout_width="wrap_content" 
+  	    android:layout_height="wrap_content" 
+  	    android:text="添加图标装饰"
+  	    android:textColor="#9932CD"
+  	    />
+    <RadioButton
+    	android:id="@+id/resize"
+ 	    android:layout_width="wrap_content" 
+  	    android:layout_height="wrap_content" 
+  	    android:text="改变图片大小"
+  	    android:textColor="#9932CD"
+  	    />
+  	<RadioButton
+    	android:id="@+id/reflection"
+ 	    android:layout_width="wrap_content" 
+  	    android:layout_height="wrap_content" 
+  	    android:text="创建镜像效果"
+  	    android:textColor="#9932CD"
+  	    />
+  	<RadioButton
+    	android:id="@+id/distort"
+ 	    android:layout_width="wrap_content" 
+  	    android:layout_height="wrap_content" 
+  	    android:text="图片扭曲"
+  	    android:textColor="#9932CD"
+  	    />
+  	<RadioButton
+    	android:id="@+id/prune"
+ 	    android:layout_width="wrap_content" 
+  	    android:layout_height="wrap_content" 
+  	    android:text="修剪边缘"
+  	    android:textColor="#9932CD"
+  	    />
+</RadioGroup>
+
+	<Button
+		android:id="@+id/submit"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		
+		android:textColor="#ff23ff"
+		android:text="确定" />
+
+	<Button
+		android:id="@+id/back_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		
+		android:textColor="#ff23ff"
+		android:text="返回" />
+		<Button
+		android:id="@+id/change_pic_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		
+		android:textColor="#ff23ff"
+		android:text="重新选择图片" />
+
+</LinearLayout>
+</ScrollView>

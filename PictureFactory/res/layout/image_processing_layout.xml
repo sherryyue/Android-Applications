@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >   
+    
+    
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--原图片--" 
+		android:textStyle="bold"  
+			android:layout_marginTop="30dip"
+
+		android:layout_marginLeft="25dip"  
+		android:layout_gravity="center_horizontal"
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView    
+        android:id="@+id/image01"    
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:padding="6dip"
+        />   
+        
+         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--添加装饰图案--" 
+		android:textStyle="bold"  
+		android:layout_gravity="center_horizontal"
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+        
+    <ImageView   
+        android:id="@+id/image02"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:padding="6dip"
+    />   
+    
+     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--图片缩小--" 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="bold"  
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView   
+        android:id="@+id/image03"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+         android:padding="6dip"
+    />   
+    
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--倒影效果--" 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="bold"  
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView   
+        android:id="@+id/image04"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:padding="6dip"
+    />   
+    
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--图片扭转--" 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="bold"  
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView   
+        android:id="@+id/image05"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:padding="6dip"
+    />   
+    
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--图片剪裁--" 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="bold"  
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView   
+        android:id="@+id/image06"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+         android:padding="6dip"
+    />   
+    
+    
+     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--图片翻转--" 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="bold"  
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView   
+        android:id="@+id/image07"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:padding="6dip"
+    />   
+    
+    
+      <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--图片透明度渐变--" 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="bold"  
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView   
+        android:id="@+id/sample8"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:padding="6dip"
+    />   
+    
+    
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--图片透明化--" 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="bold"  
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView   
+        android:id="@+id/sample9"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:padding="6dip"
+    />   
+    
+    
+       <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="--图片染色--" 
+		android:layout_gravity="center_horizontal"
+		android:textStyle="bold"  
+		android:layout_marginLeft="25dip"  
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="10dip"/>
+    
+    <ImageView   
+        android:id="@+id/sample10"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"    
+        android:padding="6dip"
+    />   
+    
+    
+    
+    
+    <Button
+		android:id="@+id/back_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		
+		android:textColor="#ff23ff"
+		android:text="返回" />
+</LinearLayout>  
+
+</ScrollView>

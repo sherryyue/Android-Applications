@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+             android:id="@+id/productslist"
+
+             android:layout_width="fill_parent"
+
+             android:layout_height="fill_parent"
+			android:background="@drawable/welcome_background"
+             
+
+             >
+
+          
+
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	>
+	
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/textview" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="请选择图片" 
+		android:textStyle="bold"  
+		android:layout_marginTop="28dip"
+		 android:layout_gravity="center_horizontal" 
+		android:textColor="#ffd700"
+		android:typeface="monospace"
+		android:textSize="20dip"/>
+	
+	<Button
+		android:id="@+id/wallpaper_button"
+		android:background="@drawable/current"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center_horizontal" 
+		android:gravity="center_vertical"
+		/>
+		
+	<Button
+		android:id="@+id/other_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical"
+		android:layout_gravity="center_horizontal"
+		android:background="@drawable/albumn"/>
+		
+		
+		<Button
+		android:id="@+id/web_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical"
+		android:layout_gravity="center_horizontal"
+		android:textColor="#ff23ff"
+		android:background="@drawable/internet"/>
+	
+
+	
+	
+</LinearLayout>
+
+</FrameLayout>
+

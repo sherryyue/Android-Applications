@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    	android:background="@drawable/functionbackground"
+    >
+<TextView
+	android:id="@+id/textView1"  
+	android:layout_marginTop="30dip"
+android:layout_marginLeft="15dp" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="#9932CD" 
+    android:text="点击希望添加的图案:"
+    />
+
+
+
+<Button
+android:id="@+id/icon1"
+android:layout_width="50dip" 
+android:layout_height="50dip"
+android:gravity="center_vertical"
+android:layout_marginLeft="25dip"
+>
+</Button>
+
+
+<Button
+android:id="@+id/icon2"
+android:layout_width="50dip" 
+android:layout_height="50dip"
+android:gravity="center_vertical"
+android:layout_marginLeft="35dip"
+>
+</Button>
+
+<Button
+android:id="@+id/icon3"
+android:layout_width="50dip" 
+android:layout_height="50dip"
+android:gravity="center_vertical"
+android:layout_marginLeft="55dip"
+>
+</Button>
+
+<Button
+android:id="@+id/icon4"
+android:layout_width="50dip" 
+android:layout_height="50dip" 
+android:gravity="center_vertical"
+android:layout_marginLeft="15dip"
+>
+</Button>
+
+<Button
+android:id="@+id/icon5"
+android:layout_width="50dip" 
+android:layout_height="50dip" 
+android:gravity="center_vertical"
+android:layout_marginLeft="85dip"
+>
+</Button>
+
+<Button
+android:id="@+id/icon6"
+android:layout_width="50dip" 
+android:layout_height="50dip" 
+android:gravity="center_vertical"
+android:layout_marginLeft="15dip"
+>
+</Button>
+
+<Button
+		android:id="@+id/back_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		
+		android:textColor="#ff23ff"
+		android:text="后退" />
+
+	<Button
+		android:id="@+id/home_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		
+		android:textColor="#ff23ff"
+		android:text="返回开始首页" />
+
+</LinearLayout>
+</ScrollView>
